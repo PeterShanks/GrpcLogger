@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcLogger.Services";
+
+enum LogLevel {
+	Verbose = 0;
+	Info = 1;
+	Warning = 2;
+	Error = 3;
+	Critical = 4;
+}
